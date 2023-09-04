@@ -11,7 +11,7 @@ body{
     overflow: hidden;
 }
 
-h1{
+h3{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     margin: 0;
@@ -24,8 +24,8 @@ p{
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     margin: 0;
-    padding: 0;
-    text-align: center;
+    padding: 98px;
+    text-align: left;
     
 }
 
@@ -33,4 +33,19 @@ img{
     max-width: 100%;
     height: auto;
     
+    
+}
+
+p{
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #999;
+    color:aliceblue;
+},  
+
+.column{
+    width: 50%;
+    float: left;
+    text-align: left;
+
 }
